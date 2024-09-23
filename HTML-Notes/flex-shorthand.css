@@ -1,0 +1,39 @@
+.one {
+    background-color: #ff9a71;
+    flex-grow: 1; /* default vaule. That means that the item doesn't adapt in size at all and is only as wide at the content. */
+/*  flex-grow: It controls how a flex item grows across the main axis. */
+}
+
+.two {
+    background-color: #ffc863;
+}
+
+.container {
+    display: flex;
+    border: 1px solid #d37947;
+    width: 60%; /* Items with bigger flex-grow vaules get more of the empty space left inside teh container. A smaller container means they got less space. */
+}
+
+/* we can set flex-grow for all items inside a flex container. If we set al of them to 1. */
+.equal-container {
+    border: 1px solid #b37947;
+    display: flex;
+    
+
+}
+
+.box1 {
+    flex-grow: 1; /* The higher the number, the bigger the ratio of a container's empty space we give a flex item.*/
+    background-color: #ff9a71;
+    
+}
+
+.box2 {
+    flex-grow: 0;
+    background-color: #ffc863;
+}
+
+.box3 {
+    flex-grow: 0;
+    background-color: #b37947;
+}

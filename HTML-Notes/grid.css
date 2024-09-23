@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #0761b1;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr; /* Grid has a special measurement unit called fr short for fractional unit fr distributes the container's available space in fractions */
+    background-color: #e0f6ff;
+    border: 1px dashed #1e96ff;
+}
+
+.grid-container-repeat {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three means 3 colunms of 1fr each */
+    background-color: #e0f6ff;
+    border: 1px dashed #1e96ff;
+}
+
+.grid-row-container {
+    display: grid;
+    grid-template-rows: 50px 80px 100px; /* To place mgrid items in rows of fixed sizes, we use pixel units. If there are fewer grid items than rows we'll get empty rows*/
+    background-color: #e0f6ff;
+    border: 1px dashed #1e96ff;
+}
+
+.grid-row-container-percents {
+    display: grid;
+    grid-template-rows: 40% 60%; /* We can use percentages values for rows, but this only works if the container has a set size.*/
+    background-color: #e0f6ff;
+    border: 1px dashed #1e96ff;
+    height: 300px; /* Like 300px*/
+}
+
+.grid-row-container-auto {
+    display: grid;
+    grid-template-rows: auto 30px auto; /* Setting the rows size to auto will make the new take up as much space as there is available */
+    background-color: #e0f6ff;
+    border: 1px dashed #1e96ff;
+    height: 300px; /* Like 300px*/
+}
+
+
+.grid-template-container {
+    display: grid;
+    grid-template: 50px 50px / 60px 60px; /* The values on the left are rows and on the right are columns. 50px long for the rows and 60px tall*/
+    background-color: #e0f6ff;
+    border: 1px dashed #1e96ff;
+}
+
+.grid-template-container_mix {
+    display: grid;
+    grid-template: 60% auto / 1fr 1fr;
+    background-color: #e0f6ff;
+    border: 1px dashed #1e96ff;
+    height: 100px;
+}
+
+.grid-template-container_gap {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    background-color: #e0f6ff;
+    /* row-gap: 5px;
+    column-gap: 5px; */
+    gap: 5px 10px; /* Shorthand. First value is row and second value is columns */
+
+}
+
+.grid-column {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    background-color: #e0f6ff;
+    border: 1px dashed #1e96ff;
+}
+
+.grid-items_mix {
+    background-color: #1e96ff;
+    color: #fff;
+    text-align: center;
+    margin: 2px;
+
+}
+
+.grid-items {
+    background-color: #1e96ff;
+    color: #fff;
+    text-align: center;
+    margin: 2px;
+    padding: 10px;
+}
+
+.grid-items-2 {
+    background-color: #1e96ff;
+    color: #fff;
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
+}
+
+.item-1 {
+    grid-column: span 2; /*Span 2 means we span the grid item across two columns. The grid template has three columns and three rows, this measn when we set span to 2 it 
+    spans to the second column */
+    grid-row: span 3; /*Span 3 means we span the grid item acroos rows. The item fills up the row*/
+}
+
+.item-2 {
+    grid-column: span 1;
+}
+
+.grid-area {  /* Refer to Notes for help */
+    display: grid;
+    background-color: #e0f6ff;
+    border: 1px dashed #1e96ff;
+    gap: 2px;
+    /* grid-template-areas: "item1 item2 item3";  Setting grid-template-areas to "item1 item2 item3" means that we create one grid row with three grid columns. */
+}
+
+.area-item-1 {
+    grid-area: item1;
+}
+.area-item-2 {
+    grid-area: item2;
+}
+/* .area-item-3 {
+    grid-area: item3;
+} */

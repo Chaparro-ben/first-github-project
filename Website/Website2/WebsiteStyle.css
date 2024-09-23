@@ -1,0 +1,151 @@
+*{
+    margin: 00;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.header{
+    background-color: coral;
+    color: #fff;
+    padding: 16px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.title{
+    font-size: 2em;
+    padding: 3px ;
+    animation: fade-up 650ms 200ms backwards;
+}
+
+nav{
+    background-color: #333;
+    color: #fff;
+    padding: 14px ;
+}
+
+a{
+    text-decoration: none;
+    position: relative;
+    transition: opacity 300ms ease;
+}
+
+
+.navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a{
+    color:#fff;
+    text-decoration:none;
+    font-size: 18px;
+    padding-right: 15px;
+    animation: fade-up 650ms 200ms backwards;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+    color: #fff;
+    
+}
+
+
+/* ^Top of the page^*/
+
+.text-background{
+    height: 500px;
+}
+
+.title-box{
+    background-color: #000;
+    height: 400px;
+}
+
+.title--box__text{
+    color: #fff;
+    width: 450px;
+    margin: 0 auto;
+    padding-top: 110px;
+    font-size: 70px;
+    animation: fade-up 650ms 800ms backwards;
+}
+
+@keyframes fade-up {
+    0% {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+/* ^Title Box^ */
+
+.main{
+    float: left;
+    padding: 30px;
+    width: 70%;
+}
+
+.left-side{
+    float: right;
+    background-color: #333;
+    width: 30%;
+    margin-top: 30px;
+    border-radius: 12px;
+    color: #fff;
+    animation: fade-up 650ms 200ms backwards;
+}
+
+.sidebar-text{
+    padding: 20px;
+    font-size: 17px;
+    animation: fade-up 650ms 200ms backwards;
+}
+
+.para-title{
+    margin-bottom: 8px;
+    animation: fade-up 650ms 200ms backwards;
+}
+
+.para{
+    animation: fade-up 650ms 300ms backwards;
+    
+}
+
+footer{
+    background-color: #333;
+    padding: 25px;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+@media (max-width:865px) {
+    .sidebar-text{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 750px) {
+    .sidebar-text{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: #f7af9d;
+}
+
+.flex_container {
+    border: solid 2px #806868;
+    display: flex;
+    /* height: 200px; Flex items automatically stretch to fill their container height   */
+}
+
+.row-reverse_container {
+    border: solid 2px #806868;
+    display: flex;
+    flex-direction: row-reverse; /* flex-direction defines what's known as the main axis, an imaginary line that refers to the direction */
+    /* flex-direction: row; means the main axis is horizontal, starts from the left */
+    
+}
+
+.column_container {
+    border: solid 2px #806868;
+    display: flex;
+    flex-direction: column;/* flex-direction: column; means the main axis is veritcal, starts from the top and ends at the bottom. column-reverse starts from the bottom to top*/
+}
+
+.justify_container {
+    border: solid 2px #806868;
+    display: flex;
+    justify-content: flex-end; /* justfying means changing how elements are grouped and spaced on the main axis.*/
+}
+
+.flex-end_container {
+    border: solid 2px #806868;
+    height: 300px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end; /* flex end means all the content is grouped at the bottom of the container.*/
+}
+
+.align-items {
+    border: 2px solid #806868;
+    display: flex;
+    height: 100px;
+    align-items: stretch;/* The defualt vaule flex items have */
+}
+
+.flex-wrap {
+    border: 3px solid #806868;
+    width: 200px; 
+    display: flex;
+    flex-wrap: wrap; /* we use wrap to make items start on a new line when they don't fit */
+}
+
+.flex-basis {
+    border: 1px solid #d37947;
+    display: flex;
+}
+
+.item {
+    border: solid 2px #457081;
+}
+
+.item2 {
+    border: 2px solid #457081;
+    margin: 10px;
+    padding: 5px;
+}
+
+.item3 {
+    text-align: center;
+}
+
+.one {
+    /* flex-basis: auto;  flex-basis is a flex item property. Flex item properites only work inside of flex item rules and don't work inside of flex container rules */
+    background-color: #FF97A1;
+    flex-basis: 100px;
+}
+
+.two, .four {
+    background-color: #FFC86E;
+}
+
+.default-vaules {
+    border: 1px solid #d37947;
+    display: flex;
+}
+
+.three {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: #ff97a1;
+}
+
+.shorthand {
+    flex: 0 1 auto; /* flex-grow, flex-shrink, and flex-basis */
+    background-color: #b85b65;
+}

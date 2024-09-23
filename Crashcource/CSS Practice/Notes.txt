@@ -1,0 +1,36 @@
+Specificity is the prioritzation of the styling
+
+What is box model?
+Box model is a container that consist of mulitple different properties
+
+Styling CSS elements:
+Tag name
+    <div></div>
+    div{color: red;}
+Class
+    <div class"text"></div>
+    .text{color: red;}
+Id
+    <div></div>
+    #test{color: red;}
+
+
+animation:
+button {
+    transition: all 300ms;
+    animation: float 2000ms 3 alternate-reverse;
+}
+
+button:hover {
+    background-color: #000;
+    color: white;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}

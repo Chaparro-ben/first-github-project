@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    border: none;
+    color: inherit;
+    font: inherit;
+    background: none;
+}
+
+body{
+    background-color: #000;
+    font-family: 'Roboto', sans-serif;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
+.main{
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 90px;
+}
+
+.intro{
+    padding-top: 125px;
+}
+
+.first-heading{
+    font-size: 48px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+
+.text{
+    font-size: 25px;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 11px;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid red;
+    grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px;
+    gap: 50px;
+    
+}
+
+.project{
+    border-radius: 5px;
+}
+
+.project-info{
+    z-index: 100;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 420px;
+    margin-left: 30px;
+    background-color: gray;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.project-info:nth-child(2){
+    background-color: rgb(184, 183, 183);
+}
+
+.project-info:nth-child(3){
+    background-color: rgb(65, 63, 63);
+}
+
+.project-info:nth-child(4){
+    background-color: rgb(67, 58, 242);
+}
+
+.project-info:nth-child(5){
+    background-color: rgb(67, 66, 66);
+}
+
+.project-info:nth-child(6){
+    background-color: rgb(121, 111, 95);
+}
+
+.project-info:nth-child(7){
+    background-color: rgb(242, 229, 225);
+}
+
+.project-info:nth-child(8){
+    background-color: rgb(31, 159, 209);
+}
+
+.project-info:nth-child(9){
+    background-color: rgb(59, 130, 186);
+}
+
+.project-info:nth-child(11){
+    background-color: rgb(124, 19, 2);
+}
+
+.project-info:nth-child(12){
+    background-color: rgb(124, 19, 2);
+}
+
+.project-info:nth-child(13){
+    background-color: rgb(106, 103, 102);
+}
+
+.project-info:nth-child(14){
+    background-color: rgb(161, 142, 76);
+}
+
+.project-info:nth-child(15){
+    background-color: rgb(48, 43, 25);
+}
+
+.project-info:nth-child(16){
+    background-color: rgb(48, 43, 25);
+}
+
+.project-info:nth-child(21){
+    background-color: rgb(48, 43, 25);
+}
+
+.project-info:nth-child(22){
+    background-color: rgb(181, 138, 184);
+}
+
+.project-info:nth-child(23){
+    background-color: rgb(72, 68, 59);
+}
+
+.project-info:nth-child(24){
+    background-color: rgb(132, 68, 66);
+}
+
+.project-info:nth-child(25){
+    background-color: rgb(63, 48, 58);
+}
+
+.project-info:nth-child(26){
+    background-color: rgb(63, 48, 58);
+}
+
+.project-info:nth-child(27){
+    background-color: rgb(110, 21, 16);
+}
+
+.project-info:nth-child(28){
+    background-color: rgb(79, 32, 28);
+}
+
+.project-info:nth-child(29){
+    background-color: rgb(67, 59, 83);
+}
+
+.project-info:nth-child(30){
+    background-color: rgb(100, 28, 13);
+}
+
+.project-info:nth-child(31){
+    background-color: rgb(13, 29, 58);
+}
+
+.project-info:nth-child(32){
+    background-color: rgb(208, 140, 156);
+}
+
+.project-info:nth-child(33){
+    background-color: rgb(45, 40, 45);
+}
+
+.project-info:nth-child(34){
+    background-color: rgb(56, 47, 53);
+}
+
+.project-info:nth-child(35){
+    background-color: rgb(59, 78, 90);
+}
+
+.project-info:nth-child(36){
+    background-color: rgb(65, 66, 71);
+}
+
+.project-info:nth-child(37){
+    background-color: rgb(74, 75, 52);
+}
+
+.project-info:nth-child(38){
+    background-color: rgb(242, 229, 225);
+}
+
+.project-info:nth-child(39){
+    background-color: rgb(177, 32, 22);
+}
+
+.project-info:nth-child(40){
+    background-color: rgb(167, 147, 123);
+}
+
+.project-info:nth-child(42){
+    background-color: rgb(121, 119, 117);
+}
+
+.project-info:nth-child(43){
+    background-color: rgb(169, 43, 25);
+}
+
+.project-info:nth-child(44){
+    background-color: rgb(51, 11, 144);
+}
+
+.project-info:nth-child(45){
+    background-color: rgb(67, 58, 242);
+}
+
+.project-info:nth-child(46){
+    background-color: rgb(168, 206, 248);
+}
+
+.project-info:nth-child(47){
+    background-color: rgb(222, 89, 47);
+}
+
+.project-info:nth-child(48){
+    background-color: rgb(247, 225, 228);
+}
+
+.project-info:nth-child(49){
+    background-color: rgb(67, 58, 242);
+}
+
+.project-info:nth-child(50){
+    background-color: rgb(61, 61, 82);
+}
+
+.project-info:nth-child(51){
+    background-color: rgb(161, 202, 249);
+}
+.cover{
+    margin-right: 5px;
+}
+
+.song-cover{
+    width: 130px;
+    height: 130px;
+    margin: 20px;
+}
+
+.text-column{
+    flex: 1;
+}
+
+.text-header{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.song-name{
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.artist-name{
+    font-size: 18px;
+
+}
+
+.lyrics-header{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+}
+
+.lyrics-flex{
+    flex:1;
+}
+
+
+.lyrics:nth-child(1){
+    transform: translateX(-155px) translateY(60px);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.3;
+}
+
+.lyrics-1{
+    transform: translateX(-155px) translateY(45px);
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.song-name-2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 3px;
+}
+
+.lyrics-2{
+    transform: translateX(-155px) translateY(80px);
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.song-name-3{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 3px;
+}
+
+.song-name-4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 3px;
+}
+
+.song-name-5{
+    font-size: 25px;
+    font-weight: 700;
+    width: 180px;
+    margin-top: 50px;
+    margin-bottom: 3px;
+}
+
+.song-name-6{
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 3px;
+}
+
+.lyrics-3{
+    transform: translateX(-155px) translateY(60px);
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 1.3;
+}
+
+.lyrics-4{
+    transform: translateX(-155px) translateY(70px);
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+.lyrics-5{
+    transform: translateX(-155px) translateY(50px);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.lyrics-6{
+    transform: translateX(-155px) translateY(70px);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.3;
+}
+
+.lyrics-7{
+    transform: translateX(-155px) translateY(40px);
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+.work{
+    margin-top: 60px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second-heading{
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.filters{
+    display: flex;
+    column-gap: 40px;
+}
+
+.filter-btn{
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    color: #fff;
+}

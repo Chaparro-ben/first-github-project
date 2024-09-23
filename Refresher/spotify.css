@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    color: #b2b2b2;
+    background-color: #020202;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    padding: 1.5rem;
+    background: linear-gradient(#71221e, #181212);
+    height: 100vh;
+    margin-top: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    position: fixed;
+    left: 450px;
+    width: calc(100% - 280px);
+    top: 10px;
+    border-radius: 5px;
+}
+
+.header-icons span {
+    font-size: 1.3rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    padding: .5rem;
+}
+
+.sidebar {
+    width: 450px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    background-color: #020202;
+}
+
+.sidebar-menu {
+    background-color: #131313;
+    border-radius: 5px;
+    margin-bottom: .5rem;
+}
+
+.container {
+    margin: 1rem 1.5rem 1rem 1.5rem;
+}
+
+.menu-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-head a {
+    font-size: 1rem;
+    color: #b2b2b2;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.menu-head a span {
+    font-size: 1.8rem;
+    display: inline-block;
+    margin-right: .5rem;
+}
+
+.menu-head div span {
+    font-size: 1.5rem;
+}
+
+.sidebar-menu ul {
+    margin: 1rem 1rem 1rem 1.5rem;
+}
+
+.sidebar-menu li {
+    margin-bottom: 1rem;
+}
+
+.sidebar-menu li a {
+    color: #ccc;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-menu li a span {
+    font-size: 1.8rem;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.playlists,
+.artists,
+.albums, 
+.podcasts {
+    background-color: #2a2929;
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: .8rem;
+    border-radius: 20px;
+}
+
+.flex span {
+    font-size: 1.3rem;
+}
+
+.playlists-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.picture-container {
+    margin-right: 10px;
+}
+
+.picture-container img {
+    width: 50px;
+    border-radius: 5px;
+}
+
+.content {
+    flex: 1;
+}
+
+.liked-songs {
+    color: #fff;
+}
+
+.song-header i {
+    color: green;
+}
+
+.song-header span {
+    font-size: .9rem;
+}
+
+

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(19, 31, 36);
+    color: rgb(241, 247, 251);
+    
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.title {
+    font-size: 3rem;
+    padding-top: 20px;
+}
+
+main {
+    max-width: 2000px;
+    padding: 0 25px;
+    margin-top: 100px;
+}
+
+.words-display {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.text-box{
+    border: 2px solid rgb(241, 247, 251);
+    border-radius: 4px;
+    width: 450px;
+    padding-left: 5px;
+
+}
+.phrases {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    width: 380px;
+    padding-left: 5px;
+    font-size: 17px;
+}
+.grid{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.sentence-header{
+    border: 2px solid rgb(241, 247, 251) ;
+    border-radius: 4px;
+
+    padding-left: 5px;
+}
+
+.sentence::after{
+    content: ':';
+}
+.display{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding-left: 5px;
+    gap: 5px;
+}
+
+.conjugation__grid-template {
+    display: grid;
+    grid-template: auto / .5fr .5fr .5fr .5fr;
+    border: 4px solid rgb(55, 70, 90);
+}
+
+.sentence__grid-template {
+    display: grid;
+    grid-template: auto / 1fr 1fr;
+    border: 4px solid rgb(55, 70, 90);
+}
+
+.first-row,
+.second-row,
+.third-row,
+.fourth-row,
+.fifth-row {
+    background-color: rgb(38, 49, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 22px;
+    border-bottom: 4px solid rgb(55, 70, 90);
+    border-right: 4px solid rgb(55, 70, 90);
+    
+}
+
+.font-weight {
+    font-weight: 600;
+}
+
+.last-column {
+    border-right: none;
+}
+
+.border-bottom {
+    border-bottom: none;
+}
+
+.black-background {
+    background-color: rgb(27, 34, 43);
+}
+
+.second-row:nth-child(1) {
+    font-size: 16px;
+    color: red;
+}
+
+
+
+.translate{
+    font-weight: 600;
+}
+
+#middle-row,
+#first-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

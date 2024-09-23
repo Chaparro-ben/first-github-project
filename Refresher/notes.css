@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(39, 39, 39);
+    color: #eee;
+}
+a {
+    color: inherit;
+}
+
+
+header {
+    top: 0;
+    right: 0;
+    
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    
+    
+}
+
+.h1_title {
+    font-size: 58px;
+    border: 1px solid blue;
+}
+
+.box-1 {
+    border: 1px solid purple;
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+}
+.box-2 {
+    font-size: 50px;
+    color: purple;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form><!-- A form element with different input elements and a submit button inside make up the form struture.-->
+        Username: <input type="text"><br>
+        Password: <input type="text"><br>
+        <button>Login</button>
+    </form>
+
+    <h3>Register Account</h3>
+    <form>
+        <fieldset> <!--Fieldset groups input together-->
+            <legend>Personal Info</legend>
+            Name: <input type="text"><br> 
+            Email: <input type="email"><br>
+            Phone: <input type="tel"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Login Info</legend> <!--We Place legend element inside the fieldset element to caption the entire field set.-->
+            Username: <input type="text"><br>
+            Password: <input type="password"><br>
+        </fieldset>
+        <button>Register</button>
+    </form>
+
+    <h1>Let's Review</h1>
+    <textarea rows="3" cols="15"></textarea> <!-- input elements can only be text fields with a single line. To create a multiple-line text area we use the textarea element.-->
+    <!-- To control the size of the text area, we use the rows attribute to set the rows of text and cols attribute to set the number of characters -->
+
+    <h1>Labels</h1>
+    <form>
+        <label for="name">Name: </label><input type="text" id="name"><br> <!--Labels are important for defining the expected inputs. Lables also help with accessibility-->
+        <label for="email">Email: </label><input type="text" id="email"><br> <!-- We add text to lables to help users know what to input.-->
+        <!--The for attibutes specifies which input element a label is bound to. It's teh same as the id value of the input element. The for attribute value must be the same as the value of the id of the corresponding input element.-->
+        <!-- -->
+        <button>Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Notes</title>
+    <link rel="stylesheet" href="./cssNotes.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#elements">Go to element</a>
+        <a href="#box-model">Go to box-model</a>
+        <a href="#display">Go to display</a>
+        <a href="#position">Go to position</a>
+        <a href="#media">Go to media</a>
+      </nav>
+    </header>
+    <section id="elements">
+      <h1>Styling CSS elements</h1>
+      <div>You have multiple ways to reference an HTML element to style it</div>
+      <ul>
+        <li>Tag name</li>
+        <div>&#60;div&#62;&#60;/div&#62;</div>
+        <div>div{color: red;}</div>
+        <li>Class</li>
+        <div>&#60;div class="text"&#62;&#60;/div&#62;</div>
+        <div>.text{color: red;}</div>
+        <li>Id</li>
+        <div>&#60;div id="test"&#62;&#60;/div&#62;</div>
+        <div>#test{color: red;}</div>
+      </ul>
+    </section>
+    <section id="box-model">
+      <h1>Box Model</h1>
+      <div>What does it consist of?</div>
+      <ul>
+        <li>content</li>
+        <li>padding</li>
+        <li>border</li>
+        <li>margin</li>
+      </ul>
+    </section>
+    <section id="display">
+      <h1>Display</h1>
+      <div>Two CSS display values</div>
+      <ul>
+        <li>Block</li>
+        <div>Takes 100% of the width and starts on a new line</div>
+        <div>e.g &#60;p&#62; &#60;div&#62; tags</div>
+        <li>inline</li>
+        <div>
+          Doesn't allow you to set a width or height for elements & starts on
+          the same line
+        </div>
+        <div>e.g &#60;span&#62; &#60;img&#62; tag</div>
+      </ul>
+    </section>
+    <section id="position">
+      <h1>Position</h1>
+      <div>CSS position values (common)</div>
+      <ul>
+        <li>Static (default)</li>
+        <div>Follows normal flow of the page</div>
+        <li>Relative</li>
+        <div>Follows normal flow of the page</div>
+        <div>Lets you position using top,left,bottom,right</div>
+        <li>absolute</li>
+        <div>Does <b>not</b> follow the normal flow of the page</div>
+        <div>Lets you position using top,left,bottom,right</div>
+        <div>Position is based off closest 'position: realtive' parent</div>
+        <li>fixed</li>
+        <div>Sticks elements to a permanent location on the page</div>
+        <div>Uses top, left, bottom, right</div>
+        <li>sticky</li>
+        <div>
+          sticks element to a permanent location on the page once it hits a
+          threhold
+        </div>
+      </ul>
+    </section>
+    <section id="media">
+      <h1>Media Queries</h1>
+      <div>Common Breakpoints (max-width)</div>
+      <ul>
+        <li>576px</li>
+        <div>Mobile phones</div>
+        <li>768px</li>
+        <div>Tablets</div>
+        <li>992px</li>
+        <div>Desktops</div>
+        <li>1200px +</li>
+        <div>Large Desktops</div>
+      </ul>
+    </section>
+    <section id="media">
+      <h1>Pseudo Selectors</h1>
+      <div>We have 2 pseudo elements in CSS</div>
+      <ul>
+        <li>after</li>
+        <li>before</li>
+      </ul>
+    </section>
+    <section id="bem">
+      <h1>BEM</h1>
+      <div>Block Element Modifier</div>
+      <ul>
+        <li><b>B [block] </b>is the block component</li>
+        <li><b>E [element] </b>is dependent on the block component</li>
+        <li><b>M [modifier] </b>is used to change the style of the block</li>
+      </ul>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+.subscribe{
+    background-color: rgb(200, 0, 0);
+    color: white;
+    padding: 10px 14px;
+    border: none;
+    font-family: arial;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+}
+.join{
+    border: solid 1px blue;
+    padding: 8px 14px;
+    color: blue;
+    font-family: arial;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 2px;
+    transition: background-color 0.15s, color 1s;
+    vertical-align: top;
+    
+}
+.tweet{
+    background-color: rgb(3, 138, 222);
+    color:white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 18px;
+    font-weight:bold;
+    font-size: 15px;
+    font-family: arial;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+}
+.subscribe:hover{
+    opacity: 0.7;
+}
+.subscribe:active{
+    opacity: 0.4;
+}
+.join:hover{
+    background-color: blue;
+    color: white;
+}
+.join:active{
+    opacity: 0.6;
+}
+.tweet:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+/* a{
+    color: rgb(0, 113, 133);
+}
+p{
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+    font-size: 17px;
+}
+.cart{
+    background-color: rgb(255, 216, 20);
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 18px;
+    font-family: arial;
+}
+.buy{
+    border: none;
+    background-color: rgb(255, 164, 28);
+    height: 30px;
+    width: 100px;
+    border-radius: 18px;
+} */

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classlist</title>
+</head>
+<body>
+    <style>
+        .bold {
+            font-weight: bold;
+        }
+        .text-color {
+            color: blue;
+        }
+        .italic {
+            font-style: italic;
+        }
+        img {
+            border-radius: 50%;
+        }
+        .img-change {
+            background: "../About me/imgs/Control.jpeg"
+        }
+        
+        body {
+            text-align: center;
+            background-color: lightgray;
+        }
+        button {
+            margin: 30px;
+            padding: 3px 12px 3px 12px;
+            border-radius: 20px;
+        }
+    </style>
+    <button onclick="addBold()">Bold</button>
+    <br>
+    <p class="italic">It was a bright idea</p>
+    <button onclick="addColor()">Change color</button>
+    <div>Change me</div>
+    <button onclick="changeAttribute()">Update Photo</button>
+    <br>
+    <img src="/About me/imgs/Whatever-You-Want.jpeg" alt="" width="500">
+    <br>
+    <img src="/About me/imgs/Whatever-You-Want.jpeg" alt="" class="img1" width="500">
+    <br>
+    <button onclick="changePhoto()">Change Me</button>
+    <script src="classlist.js"></script>
+</body>
+</html>

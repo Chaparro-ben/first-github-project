@@ -1,0 +1,496 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+ul{
+    list-style: none;
+}
+
+button{
+    border: none;
+    background: none;
+    font: inherit;
+    color: inherit;
+}
+html{
+    --default-opacity: 0.2;
+    --hover-opacity:0.1;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    scrollbar-width: none;
+    position: relative;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+main{
+    margin: 100px;
+}
+
+.intro{
+    padding-top: 125px;
+}
+
+.first-heading{
+    font-size: 48px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+
+.text{
+    font-size: 25px;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 11px;
+    text-align: center;
+}
+
+.work{
+    margin-top: 60px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    width: 1310px;
+}
+
+.second-heading{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.filters{
+    display: flex;
+    column-gap: 40px;
+}
+.filter-btn{
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    color: #fff;
+}
+.filter-btn:hover{
+    opacity: 1;
+    color: rgb(255, 0, 136);
+}
+.filter-btn--active{
+    opacity: 1;
+    color: rgb(255, 0, 136);
+}
+.project{
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.4s;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 420px 420px 420px;
+    grid-auto-rows: minmax(300px, auto);
+    gap: 2em;
+    position: relative;
+}
+/* Background-color */
+.wrapper > div{
+    background-color: gray;
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(2){
+    background: linear-gradient(#808077,#6f7067);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(3){
+    background-color: rgb(65, 63, 63);
+    padding: 1em;
+}
+.wrapper > div:nth-child(4){
+    background: linear-gradient(#3c5191,#252f67);
+    padding: 1em;
+}
+.wrapper > div:nth-child(5){
+    background-color: rgb(67, 66, 66);
+    padding: 1em;
+}
+.wrapper > div:nth-child(6){
+    background-color: rgb(121, 111, 95);
+    padding: 1em;
+}
+.wrapper > div:nth-child(7){
+    background-color: rgb(242, 229, 225);
+    padding: 1em;
+}
+.wrapper > div:nth-child(8){
+    background: linear-gradient(#3b84b7,#5b7877);
+    padding: 1em;
+}
+.wrapper > div:nth-child(9){
+    background: linear-gradient(#2c6eb0,#2966a1);
+    padding: 1em;
+}
+.wrapper > div:nth-child(11){
+    background: linear-gradient(#702310,#521b0c);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(12){
+    background: linear-gradient(#702310,#521b0c);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(13){
+    background-color: rgb(106, 103, 102);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(14){
+    background-color: rgb(161, 142, 76);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(15){
+    background: linear-gradient(#45402a,#4d4529);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(16){
+    background: linear-gradient(#45402a,#4d4529);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(21){
+    background: linear-gradient(#45402a,#4d4529);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(22){
+    background-color: rgb(181, 138, 184);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(23){
+    background-color: rgb(72, 68, 59);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(24){
+    background-color: rgb(132, 68, 66);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(25){
+    background-color: #3f303a;
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(26){
+    background-color: rgb(63, 48, 58);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(27){
+    background-color: rgb(110, 21, 16);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(28){
+    background-color: rgb(79, 32, 28);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(29){
+    background-color: rgb(67, 59, 83);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(30){
+    background-color: rgb(100, 28, 13);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(31){
+    background-color: rgb(13, 29, 58);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(32){
+    background: linear-gradient(#eea2b3, #674a51);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(33){
+    background-color: rgb(45, 40, 45);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(34){
+    background-color: rgb(56, 47, 53);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(35){
+    background-color: rgb(59, 78, 90);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(36){
+    background-color: rgb(65, 66, 71);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(37){
+    background-color: rgb(74, 75, 52);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(38){
+    background-color: rgb(242, 229, 225);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(39){
+    background-color: rgb(177, 32, 22);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(40){
+    background-color: rgb(167, 147, 123);
+    padding: 1em;
+}
+.wrapper > div:nth-child(41){
+    background-color: #1b263c;
+    padding: 1em;
+}
+.wrapper > div:nth-child(42){
+    background-color: rgb(121, 119, 117);
+    padding: 1em;
+}
+.wrapper > div:nth-child(43){
+    background-color: rgb(169, 43, 25);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(44){
+    background-color: rgb(51, 11, 144);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(45){
+    background: linear-gradient(#3c5191,#252f67);
+    padding: 1em;
+}
+.wrapper > div:nth-child(46){
+    background-color: rgb(168, 206, 248);
+    padding: 1em;
+}
+.wrapper > div:nth-child(47){
+    background-color: rgb(222, 89, 47);
+    padding: 1em;
+}
+.wrapper > div:nth-child(48){
+    background-color: rgb(247, 225, 228);
+    padding: 1em;
+}
+.wrapper > div:nth-child(49){
+    background: linear-gradient(#3c5191,#252f67);
+    padding: 1em;
+}
+.wrapper > div:nth-child(50){
+    background-color: rgb(61, 61, 82);
+    padding: 1em;
+}
+.wrapper > div:nth-child(51){
+    background-color: rgb(161, 202, 249);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(52){
+    background:linear-gradient(#b6281c,#485139);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(53){
+    background: linear-gradient(#45402a,#4d4529);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(55){
+    background: linear-gradient(#3c301f,#1e1d17);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(56){
+    background: linear-gradient(#4d6471,#5e65bc);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(57){
+    background: linear-gradient(#828383,#707273);
+    padding: 1em;
+}
+
+/* Song names */
+.song-name{
+    font-size: 28px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.song-name-2{
+    font-size: 21px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 3px;
+}
+
+.song-name-3{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 3px;
+}
+
+.song-name-4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 3px;
+}
+
+.song-name-5{
+    font-size: 25px;
+    font-weight: 700;
+    width: 180px;
+    margin-top: 30px;
+    margin-bottom: 3px;
+}
+
+.song-name-6{
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 3px;
+}
+  .artist-name{
+    font-size: 18px;
+}
+  /* Lyrics */
+.lyrics{
+    transform: translateX(-150px) translateY(60px);
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+.lyrics-1{
+    transform: translateX(-155px) translateY(60px);
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.lyrics-2{
+    transform: translateX(-155px) translateY(70px);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.lyrics-3{
+    transform: translateX(-155px) translateY(60px);
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 1.3;
+}
+
+.lyrics-4{
+    transform: translateX(-155px) translateY(70px);
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+.lyrics-5{
+    transform: translateX(-155px) translateY(50px);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.lyrics-6{
+    transform: translateX(-155px) translateY(70px);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.3;
+}
+
+.lyrics-7{
+    transform: translateX(-155px) translateY(40px);
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+.lyrics-8{
+    transform: translateX(-155px) translateY(63px);
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 1.3;
+}
+  .box1 {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+  }
+  .song-cover {
+    height: 130px;
+    width: 130px;
+    margin-right: 20px;
+    margin-left: 5px;
+  }
+  .text-column {
+    flex: 1;
+  }
+  .text-header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+  }
+
+  .lyrics-header{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+}
+
+.lyrics-flex{
+    flex:1;
+}
+
+@media (max-width: 800px) {
+    .first-heading{
+        font-size: 34px;
+    }
+    
+}
+
+

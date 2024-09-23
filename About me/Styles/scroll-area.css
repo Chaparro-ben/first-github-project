@@ -1,0 +1,447 @@
+.scroll-area,
+.scroll-area-hype,
+.scroll-area-kylie,
+.yvette-picture-area,
+.stassie-picture-area,
+.scroll-container {
+    max-width: 760px;
+    animation: fade-in 1200ms 800ms backwards;
+}
+
+
+.scroll-area,
+.scroll-area-hype,
+.scroll-area-kylie,
+.yvette-picture-area,
+.stassie-picture-area
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    border-radius: 100vw;
+    scroll-snap-align: start;
+    flex: none;
+    position: relative;
+}
+
+.scroll-container {
+    scroll-snap-type: both mandatory;
+    overflow: scroll;
+    display: flex;
+    width: 100%;
+    height: 750px;
+    margin-top: 15px;
+}
+
+.scroll-area:nth-child(1) {
+    background: url("../imgs/Sex-Songs.jpeg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.scroll-area:nth-child(2) {
+    background: url("../imgs/Valerie.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+.scroll-area:nth-child(3) {
+    background: url("../imgs/The-Take.jpeg");
+    background-position: top;
+    background-size: cover;
+}
+.scroll-area:nth-child(4) {
+    background: url("../imgs/Double-Fantasy.jpeg");
+    background-position: top;
+    background-size: cover;
+}
+.scroll-area:nth-child(5) {
+    background: url("../imgs/stargirl.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.scroll-area:nth-child(6) {
+    background: url("../imgs/Lady-of-Neptune.jpeg");
+    background-position: top;
+    background-size: cover;
+}
+.scroll-area:nth-child(7) {
+    background: url("../imgs/Where-2-Start.jpeg");
+    background-position: bottom;
+    background-size: cover;
+}
+.scroll-area:nth-child(8) {
+    background: url("../imgs/Go-Crazy.jpeg");
+    background-position: 80%;
+    background-size: cover;
+}
+.scroll-area:nth-child(9) {
+    background: url("../imgs/Show-it-2.jpeg");
+    background-position: top;
+    background-size: cover;
+}
+.scroll-area:nth-child(10) {
+    background: url("../imgs/Avalon.jpeg");
+    background-position: top;
+    background-size: cover;
+}
+
+
+/* end */
+
+.scroll-area-hype:nth-child(1) {
+    background-image: url("../imgs/Sorry-4-What.jpeg");
+    background-size: cover;
+}
+
+.scroll-area-hype:nth-child(2) {
+    background-image: url("../imgs/Bad-Bitches-Cover.jpeg");
+    background-size: cover;
+    background-position: 1%;
+}
+
+.scroll-area-hype:nth-child(3) {
+    background: url("../imgs/Where-2-Start.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.scroll-area-hype:nth-child(4) {
+    background: url("../imgs/Stupid-Again.jpeg");
+    background-size: cover;
+    background-position: 50%;
+}
+
+.scroll-area-hype:nth-child(5) {
+    background: url("../imgs/Deli.jpeg");
+    background-size: cover;
+    background-position: 50%;
+}
+
+.scroll-area-hype:nth-child(6) {
+    background: url("../imgs/Besties.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.scroll-area-hype:nth-child(7) {
+    background: url("../imgs/Loaded.jpeg");
+    background-size: cover;
+}
+.scroll-area-hype:nth-child(8) {
+    background: url("../imgs/Type.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.scroll-area-hype:nth-child(9) {
+    background: url("../imgs/Witch-Craft.jpeg");
+    background-size: cover;
+}
+.scroll-area-hype:nth-child(10) {
+    background: url("../imgs/Kid-That-Kidd.jpeg");
+    background-size: cover;
+    background-position: top;
+}
+
+/* end */
+
+.scroll-area-kylie:nth-child(1) {
+    background: url("../imgs/Kylie.jpeg");
+    background-size: cover;
+    background-position: center
+}
+
+.scroll-area-kylie:nth-child(2) {
+    background: url("../imgs/Kylie-Jenner-2.jpeg");
+    background-size: cover;
+}
+
+.scroll-area-kylie:nth-child(3) {
+    background: url("../imgs/Kylie-Jenner-3.jpeg");
+    background-size: cover;
+}
+
+.scroll-area-kylie:nth-child(4) {
+    background: url("../imgs/Kylie-Jenner-4.jpeg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.scroll-area-kylie:nth-child(5) {
+    background: url("../imgs/Kylie-Jenner-5.jpeg");
+    background-size: cover;
+    background-position: top;
+}
+
+.scroll-area-kylie:nth-child(6) {
+    background: url("../imgs/kylie-jenner.jpeg");
+    background-size: cover;
+    background-position: top;
+}
+
+/* emd of kylie */
+
+.stassie-picture-area {
+    background: url("../imgs/Stassie-3.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.stassie-picture-area:nth-child(2) {
+    background: url("../imgs/Stassie-1.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.stassie-picture-area:nth-child(3) {
+    background: url("../imgs/Stassie.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.yvette-picture-area {
+    background: url("../imgs/Ben-&-Evi.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.yvette-picture-area:nth-child(2) {
+    background: url("../imgs/Evi-2.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.yvette-picture-area:nth-child(3) {
+    background: url("../imgs/Evi.jpeg");
+    background-size: cover;
+    background-position: 0 10%;
+}
+
+.scroll-area__name {
+    font-size: 5rem;
+    color: #f4f4f4;
+}
+
+.font-size {
+    font-size: 1.5rem;
+    color: #f4f4f4;
+}
+
+.scroll-area:nth-child(5) .scroll-area__name {
+    color: #fff;
+    /* background-color: rgba(0, 0, 0, 0.45); */
+}
+
+.scroll-area-hype:nth-child(8) .scroll-area__name {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.45);
+    width: 100%;
+}
+
+
+.bottom-box {
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+}
+
+.bottom_number-box {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+   
+}
+
+.box-text {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 200;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.box-number {
+    font-size: 15rem;
+    color: #fff;
+}
+
+.box-number-dark {
+    color:  hsl(0 0% 90%);
+    font-size: 15rem;
+}
+
+@media (max-width: 860px) {
+    .scroll-area,
+    .scroll-area-hype,
+    .scroll-area-kylie,
+    .yvette-picture-area,
+    .stassie-picture-area,
+    .scroll-container {
+        max-width: 100%;
+    }
+
+    ::-webkit-scrollbar {
+        height: .8rem;
+    }
+}
+
+
+@media (max-width: 760px) {
+    ::-webkit-scrollbar {
+        height: .7rem;
+    }
+    .box-number {
+        font-size: 13rem;
+    }
+
+    .scroll-area,
+    .scroll-area-kylie,
+    .yvette-picture-area,
+    .stassie-picture-area,
+    .scroll-area-hype {
+        border-radius: 40vw;
+    }
+
+    .scroll-container {
+        height: 650px;
+    }
+    
+    .scroll-area__name {
+        font-size: 4.4rem;
+    }
+
+    .box-text {
+        font-size: 2.8rem;
+    }
+
+    .bottom-box {
+        bottom: 0%;
+    }
+
+
+    .scroll-area-hype:nth-child(7) .scroll-area__name {
+        background-color: rgba(0, 0, 0, 0.45);
+        width: 100%;
+    }
+
+    .scroll-area:nth-child(5) .scroll-area__name {
+        background-color: rgba(0, 0, 0, 0.45);
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    ::-webkit-scrollbar {
+        height: .6rem;
+    }
+
+    .box-text {
+        font-size: 2.5rem;
+    }
+
+    .box-number {
+        font-size: 11rem;
+    }
+
+    .scroll-area__name {
+        font-size: 4.2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .scroll-container {
+        height: 500px;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .box-text {
+        font-size: 2.2rem;
+    }
+
+    .box-number {
+        font-size: 8.8rem;
+    }
+
+    .scroll-area__name {
+        font-size: 3.7rem;
+    }
+
+    .scroll-container {
+        height: 500px;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    /* .scroll-area,
+    .scroll-area-lyric,
+    .picture-area, */
+    .scroll-container {
+        height: 400px;
+        /* margin-top: 0; */
+        /* box-shadow: 0 0 45px #676d6d; */
+
+    }
+
+    .scroll-area__name {
+        font-size: 2rem;
+        color: #f4f4f4;
+        /* background-color: rgba(0, 0, 0, 0.45); */
+        
+    }
+
+    .small-text {
+        font-size: 1rem;
+        
+    }
+
+    .scroll-area:nth-child(10) .box-number {
+        font-size: 4.4rem;
+    }
+
+    .bottom-box {
+        left: 0;
+    }
+
+    .box-number,
+    .box-number-dark {
+        font-size: 5.4rem;
+    }
+
+    .box-text {
+        font-size: 1.5rem;
+        
+    }
+
+    /* .bottom_number-box {
+        right: 0;
+        bottom: -15px;
+        border: 1px solid red;
+        margin-bottom: 0;
+    } */
+
+}
+
+@media (max-width: 428px) {
+    .scroll-container {
+        height: 350px;
+    }
+}
+
+@media (max-width: 390px) {
+    .scroll-container {
+        height: 300px;
+    }
+}
+
+@media (max-width: 375px) {
+    .scroll-container {
+        height: 250px;
+    }
+
+    .scroll-area__name {
+        font-size: 1.7rem;
+    }
+}

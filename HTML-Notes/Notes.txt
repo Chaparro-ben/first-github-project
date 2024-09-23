@@ -1,0 +1,3 @@
+Steps to make named areas: As a first step, we want to make sure we have different class names depending on the areas we want. Second, we then use the grid-area property to assign an area. Then, we give each grid item a name. An example: "item1 item2 item3"
+
+We use the grid-template-areas property inside the grid-container rule.
